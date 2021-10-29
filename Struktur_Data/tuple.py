@@ -42,3 +42,5 @@ Untuk data yang berukuran besar ini akan sangat menguntungkan.
 singkat daripada list.
 3. Anggota yang tidak dapat diubah membuat tuple menjadi pilihan saat kita ingin menggunakannya untuk menyimpan suatu 
 parameter yang tidak boleh berubah nilainya."""
+
+print("INI BAB TUPLE")
