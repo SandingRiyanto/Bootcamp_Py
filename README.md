@@ -1,2 +1,5 @@
 # Bootcamp_Py
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pksdigitalschool.id%2F&psig=AOvVaw11f25HVA6QKPXI6vj7Ak-7&ust=1635563916632000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDq3cTU7vMCFQAAAAAdAAAAABAD">
+
+Pada kelas ini peserta akan mempelajari data science : bagaimana caranya mengumpulkan, menganalisa hingga menyajikan data menjadi suatu hal penting untuk pengambilan kebijakan selanjutnya yang lebih baik. 
+
+Skill data science kian populer dan kebutuhan perusahaan akan SDM ini terus bertambah seiring dengan transformasi digital yang dilakukan perusahaan. Kelas ini cocok untuk anda yang ingin memulai karir dibidang data science ataupun mengembangkan bisnis atau perusahaan dengan memaksimalkan analisis data dalam pengambilan kebijakan.
