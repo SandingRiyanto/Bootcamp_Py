@@ -9,7 +9,7 @@ Satu hal yang harus diingat dalam pelaksanaan percabangan adalah pentingnya inde
 sebuah tipe data bernama boolean, yang hanya memiliki 2 nilai, yaitu True atau False.
 """
 # Pernyataan If
-""""Pernyataan if digunakan jika kita hanya ingin menguji satu pernyataan sebagai syarat jika kode kita ingin dijalankan.
+"""Pernyataan if digunakan jika kita hanya ingin menguji satu pernyataan sebagai syarat jika kode kita ingin dijalankan.
 Persamaan umum dari pernyataan if adalah"""
 nilai = 9
 if nilai >= 8 :
