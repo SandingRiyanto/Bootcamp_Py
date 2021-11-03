@@ -128,3 +128,39 @@ hasil = list(filter(lambda x:x%2 == 0,data))
 
 print(hasil)
 
+# Reduce
+
+# Fungsi reduce adalah fungsi yang digunakan untuk mengaplikasikan suatu fungsi pada semua 
+# anggota array atau struktur data untuk mendapatkan satu nilai di akhir.
+"""Misalkan kita memiliki fungsi f(a,b) = Y yang akan diaplikasikan pada list [1,2,3,4]
+Reduce akan mengambil dua nilai paling awal untuk dimasukkan pada fungsi, menjadi f(1,2) = Y
+lalu nilai Y akan dimasukkan pada list menggantikan 2 nilai lama, menjadi [Y,3,4]
+setelah itu diambil kembali dua nilai paling awal untuk dimasukkan pada fungsi, menjadi f(Y,3) = Y
+Begitu seterusnya hingga semua nilai ter-reduce menjadi satu nilai.
+Terdapat dua paramater masukkan pada fungsi reduce, yang pertama berisi fungsinya dan yang 
+kedua berisi array/struktur datanya. Mulai pada python 3.xx reduce dimasukkan pada modul functools 
+sehingga untuk memakainya kita perlu import modulnya terlebih dahulu
+"""
+
+
+from functools import reduce
+data = [3,6,2,8,6,9,3]
+
+def cek_maks(a,b):
+  if a > b:
+    return a
+  else:
+    return b
+
+hasil  = reduce(cek_maks,data)
+print(hasil)
+
+# Sekarang akan kita coba aplikasikan fungsi lambda bersama dengan fungsi reduce.
+
+from functools import reduce
+
+data = [3,6,2,8,6,9,3]
+
+hasil = reduce(lambda a,b: a if a > b else b,data)
+
+print(hasil)
